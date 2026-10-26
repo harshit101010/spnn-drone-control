@@ -1,0 +1,46 @@
+﻿scenario,subject,vs,metric,SPNN better in (%),median diff (SPNN-rival),Wilcoxon p
+train,PID+SPNN,PID,RMSE (m),100.0,-0.0347,0.0
+train,PID+SPNN,PID,Total cost,94.3667,-0.0016,0.0
+train,PID+SPNN,PID,Max dev in gust (m),99.4333,-0.0858,0.0
+train,PID+SPNN,PID,Steady jitter std (m),49.8,0.0,0.2485
+train,PID+SPNN,PID,Control rate RMS,0.0,0.0537,0.0
+train,PID+SPNN,LQG,RMSE (m),99.8667,-0.0234,0.0
+train,PID+SPNN,LQG,Total cost,27.5333,0.0052,0.0
+train,PID+SPNN,LQG,Max dev in gust (m),87.2667,-0.06,0.0
+train,PID+SPNN,LQG,Steady jitter std (m),26.1667,0.0017,0.0
+train,PID+SPNN,LQG,Control rate RMS,0.0,0.2723,0.0
+train,LQG+SPNN,LQG,RMSE (m),100.0,-0.0358,0.0
+train,LQG+SPNN,LQG,Total cost,96.5,-0.0017,0.0
+train,LQG+SPNN,LQG,Max dev in gust (m),98.0,-0.0952,0.0
+train,LQG+SPNN,LQG,Steady jitter std (m),52.3333,-1e-04,0.0746
+train,LQG+SPNN,LQG,Control rate RMS,0.0,0.0566,0.0
+unseen,PID+SPNN,PID,RMSE (m),100.0,-0.0535,0.0
+unseen,PID+SPNN,PID,Total cost,34.0667,0.0011,0.0
+unseen,PID+SPNN,PID,Max dev in gust (m),99.7333,-0.1638,0.0
+unseen,PID+SPNN,PID,Steady jitter std (m),55.3333,-0.0004,0.0
+unseen,PID+SPNN,PID,Control rate RMS,0.0,0.1415,0.0
+unseen,PID+SPNN,LQG,RMSE (m),99.9333,-0.0484,0.0
+unseen,PID+SPNN,LQG,Total cost,0.2667,0.0134,0.0
+unseen,PID+SPNN,LQG,Max dev in gust (m),93.7333,-0.133,0.0
+unseen,PID+SPNN,LQG,Steady jitter std (m),24.6333,0.0034,0.0
+unseen,PID+SPNN,LQG,Control rate RMS,0.0,0.4537,0.0
+unseen,LQG+SPNN,LQG,RMSE (m),100.0,-0.0641,0.0
+unseen,LQG+SPNN,LQG,Total cost,57.9667,-0.0006,0.0
+unseen,LQG+SPNN,LQG,Max dev in gust (m),99.2667,-0.1958,0.0
+unseen,LQG+SPNN,LQG,Steady jitter std (m),43.4,0.0004,0.0
+unseen,LQG+SPNN,LQG,Control rate RMS,0.0,0.1519,0.0
+extreme,PID+SPNN,PID,RMSE (m),100.0,-0.0702,0.0
+extreme,PID+SPNN,PID,Total cost,6.3667,0.009,0.0
+extreme,PID+SPNN,PID,Max dev in gust (m),99.8333,-0.2339,0.0
+extreme,PID+SPNN,PID,Steady jitter std (m),59.5333,-0.001,0.0
+extreme,PID+SPNN,PID,Control rate RMS,0.0,0.2775,0.0
+extreme,PID+SPNN,LQG,RMSE (m),100.0,-0.066,0.0
+extreme,PID+SPNN,LQG,Total cost,0.1,0.0286,0.0
+extreme,PID+SPNN,LQG,Max dev in gust (m),96.4333,-0.1922,0.0
+extreme,PID+SPNN,LQG,Steady jitter std (m),26.0667,0.0039,0.0
+extreme,PID+SPNN,LQG,Control rate RMS,0.0,0.6815,0.0
+extreme,LQG+SPNN,LQG,RMSE (m),100.0,-0.0848,0.0
+extreme,LQG+SPNN,LQG,Total cost,21.6667,0.0056,0.0
+extreme,LQG+SPNN,LQG,Max dev in gust (m),99.8333,-0.2762,0.0
+extreme,LQG+SPNN,LQG,Steady jitter std (m),42.2333,0.0005,0.0
+extreme,LQG+SPNN,LQG,Control rate RMS,0.0,0.3041,0.0

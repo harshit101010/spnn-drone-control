@@ -1,0 +1,55 @@
+﻿scenario,subject,vs,metric,median diff,diff 25%,diff 75%,median 95% CI low,median 95% CI high,subject better in (%),mean change (%)
+train,PID+SPNN,PID,RMSE (m),-0.0347,-0.0418,-0.0286,-0.0351,-0.0343,100.0,-24.1329
+train,PID+SPNN,PID,Max dev in gust (m),-0.0858,-0.1293,-0.0528,-0.0883,-0.0832,99.4333,-24.2282
+train,PID+SPNN,PID,Recovery time (s),0.0,0.0,0.0,0.0,0.0,6.0,-100.0
+train,PID+SPNN,PID,Steady jitter std (m),0.0,-0.0011,0.001,-0.0001,0.0001,49.8,-0.6178
+train,PID+SPNN,PID,Control rate RMS,0.0537,0.0104,0.06,0.0532,0.0542,0.0,7.9142
+train,PID+SPNN,PID,Total cost,-0.0016,-0.0028,-0.0008,-0.0017,-0.0016,94.3667,-9.3109
+train,PID+SPNN,LQG,RMSE (m),-0.0234,-0.035,-0.0154,-0.024,-0.0228,99.8667,-18.5728
+train,PID+SPNN,LQG,Max dev in gust (m),-0.06,-0.1043,-0.0233,-0.0625,-0.0576,87.2667,-18.2908
+train,PID+SPNN,LQG,Recovery time (s),0.0,0.0,0.0,0.0,0.0,1.4,-100.0
+train,PID+SPNN,LQG,Steady jitter std (m),0.0017,-0.0001,0.0042,0.0015,0.0018,26.1667,16.5011
+train,PID+SPNN,LQG,Control rate RMS,0.2723,0.0485,0.283,0.2715,0.2732,0.0,55.2179
+train,PID+SPNN,LQG,Total cost,0.0052,-0.0002,0.0064,0.0051,0.0053,27.5333,23.7921
+train,LQG+SPNN,LQG,RMSE (m),-0.0358,-0.0474,-0.0279,-0.0365,-0.0351,100.0,-27.705
+train,LQG+SPNN,LQG,Max dev in gust (m),-0.0952,-0.1422,-0.0562,-0.098,-0.0924,98.0,-28.8482
+train,LQG+SPNN,LQG,Recovery time (s),0.0,0.0,0.0,0.0,0.0,1.4,-100.0
+train,LQG+SPNN,LQG,Steady jitter std (m),-0.0001,-0.0012,0.0011,-0.0002,-0.0,52.3333,-0.4195
+train,LQG+SPNN,LQG,Control rate RMS,0.0566,0.0095,0.0627,0.0559,0.0569,0.0,11.8188
+train,LQG+SPNN,LQG,Total cost,-0.0017,-0.0029,-0.0008,-0.0018,-0.0017,96.5,-13.5687
+unseen,PID+SPNN,PID,RMSE (m),-0.0535,-0.0669,-0.0429,-0.0547,-0.0526,100.0,-28.8597
+unseen,PID+SPNN,PID,Max dev in gust (m),-0.1638,-0.2191,-0.1143,-0.1675,-0.1606,99.7333,-27.5525
+unseen,PID+SPNN,PID,Recovery time (s),0.0,0.0,0.0,0.0,0.0,22.8333,-99.646
+unseen,PID+SPNN,PID,Steady jitter std (m),-0.0004,-0.0029,0.0018,-0.0006,-0.0003,55.3333,-2.117
+unseen,PID+SPNN,PID,Control rate RMS,0.1415,0.1294,0.1549,0.1408,0.1425,0.0,14.4581
+unseen,PID+SPNN,PID,Total cost,0.0011,-0.0008,0.0024,0.001,0.0012,34.0667,1.1175
+unseen,PID+SPNN,LQG,RMSE (m),-0.0484,-0.0673,-0.0319,-0.0493,-0.047,99.9333,-27.2259
+unseen,PID+SPNN,LQG,Max dev in gust (m),-0.133,-0.2058,-0.0682,-0.138,-0.1281,93.7333,-23.7477
+unseen,PID+SPNN,LQG,Recovery time (s),0.0,0.0,0.0,0.0,0.0,23.8,-99.5384
+unseen,PID+SPNN,LQG,Steady jitter std (m),0.0034,0.0001,0.0069,0.0031,0.0036,24.6333,15.088
+unseen,PID+SPNN,LQG,Control rate RMS,0.4537,0.4386,0.47,0.4526,0.4546,0.0,67.1159
+unseen,PID+SPNN,LQG,Total cost,0.0134,0.0109,0.0152,0.0133,0.0135,0.2667,39.4922
+unseen,LQG+SPNN,LQG,RMSE (m),-0.0641,-0.0841,-0.0483,-0.0652,-0.063,100.0,-35.9961
+unseen,LQG+SPNN,LQG,Max dev in gust (m),-0.1958,-0.2664,-0.1329,-0.1995,-0.1903,99.2667,-34.518
+unseen,LQG+SPNN,LQG,Recovery time (s),0.0,0.0,0.0,0.0,0.0,23.8,-99.9912
+unseen,LQG+SPNN,LQG,Steady jitter std (m),0.0004,-0.0011,0.0019,0.0003,0.0005,43.4,1.1265
+unseen,LQG+SPNN,LQG,Control rate RMS,0.1519,0.1408,0.1634,0.151,0.1525,0.0,22.5472
+unseen,LQG+SPNN,LQG,Total cost,-0.0006,-0.0035,0.0012,-0.0008,-0.0005,57.9667,-4.7666
+extreme,PID+SPNN,PID,RMSE (m),-0.0702,-0.0904,-0.0544,-0.0713,-0.0691,100.0,-31.8693
+extreme,PID+SPNN,PID,Max dev in gust (m),-0.2339,-0.3088,-0.1649,-0.2383,-0.2287,99.8333,-29.9679
+extreme,PID+SPNN,PID,Recovery time (s),0.0,-0.25,0.0,0.0,0.0,40.9333,-97.8077
+extreme,PID+SPNN,PID,Steady jitter std (m),-0.001,-0.004,0.0021,-0.0012,-0.0008,59.5333,-3.2329
+extreme,PID+SPNN,PID,Control rate RMS,0.2775,0.2532,0.3066,0.276,0.2797,0.0,22.3139
+extreme,PID+SPNN,PID,Total cost,0.009,0.0059,0.0112,0.0088,0.0091,6.3667,11.4542
+extreme,PID+SPNN,LQG,RMSE (m),-0.066,-0.0904,-0.0447,-0.0672,-0.0644,100.0,-30.6066
+extreme,PID+SPNN,LQG,Max dev in gust (m),-0.1922,-0.2896,-0.1039,-0.1994,-0.1865,96.4333,-26.347
+extreme,PID+SPNN,LQG,Recovery time (s),0.0,-0.25,0.0,0.0,0.0,45.9667,-97.8652
+extreme,PID+SPNN,LQG,Steady jitter std (m),0.0039,-0.0003,0.0079,0.0036,0.0042,26.0667,13.3806
+extreme,PID+SPNN,LQG,Control rate RMS,0.6815,0.6534,0.7127,0.6795,0.683,0.0,79.0154
+extreme,PID+SPNN,LQG,Total cost,0.0286,0.0249,0.0318,0.0284,0.0288,0.1,55.574
+extreme,LQG+SPNN,LQG,RMSE (m),-0.0848,-0.1117,-0.0643,-0.0861,-0.0834,100.0,-39.2945
+extreme,LQG+SPNN,LQG,Max dev in gust (m),-0.2762,-0.3693,-0.1921,-0.2829,-0.271,99.8333,-37.1985
+extreme,LQG+SPNN,LQG,Recovery time (s),0.0,-0.2675,0.0,0.0,0.0,46.4667,-98.8685
+extreme,LQG+SPNN,LQG,Steady jitter std (m),0.0005,-0.0014,0.0024,0.0004,0.0006,42.2333,1.3453
+extreme,LQG+SPNN,LQG,Control rate RMS,0.3041,0.2816,0.3309,0.3024,0.3056,0.0,35.7898
+extreme,LQG+SPNN,LQG,Total cost,0.0056,0.001,0.0088,0.0053,0.0059,21.6667,8.5117

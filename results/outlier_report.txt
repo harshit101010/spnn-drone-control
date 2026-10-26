@@ -1,0 +1,19 @@
+SPNN runs flagged as anomalous by Isolation Forest (3%) vs normal runs: mean conditions
+
+          mass   drag  gust_mag  noise_pos  RMSE (m)  failed
+anomaly                                                     
+False    0.994  0.186     3.958      0.066     0.135   0.000
+True     1.143  0.183     6.322      0.079     0.198   0.004
+
+Worst 10 SPNN runs by total cost:
+     scenario   run   mass   drag  gust_mag  noise_pos  RMSE (m)  Total cost
+7376  extreme  1376  0.605  0.000     6.920       0.09     0.521       0.205
+7756  extreme  1756  1.351  0.443     7.999       0.09     0.531       0.199
+6628  extreme   628  0.629  0.000    10.014       0.09     0.347       0.148
+8876  extreme  2876  0.623  0.109     8.627       0.09     0.319       0.145
+6082  extreme    82  1.376  0.253     8.559       0.09     0.324       0.142
+8328  extreme  2328  0.672  0.042     6.524       0.09     0.337       0.139
+6292  extreme   292  0.628  0.000     5.495       0.09     0.322       0.131
+7964  extreme  1964  1.395  0.081     7.989       0.09     0.270       0.130
+8892  extreme  2892  1.397  0.161     9.375       0.09     0.284       0.129
+8640  extreme  2640  1.394  0.267     7.481       0.09     0.236       0.122

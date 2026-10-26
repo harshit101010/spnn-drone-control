@@ -1,0 +1,13 @@
+﻿scenario,controller,runs,failures,failure rate (%),95% CI low,95% CI high
+extreme,LQG,3000,336,11.2,10.12,12.38
+extreme,LQG+SPNN,3000,3,0.1,0.03,0.29
+extreme,PID,3000,316,10.53,9.48,11.68
+extreme,PID+SPNN,3000,1,0.03,0.01,0.19
+train,LQG,3000,10,0.33,0.18,0.61
+train,LQG+SPNN,3000,0,0.0,0.0,0.13
+train,PID,3000,94,3.13,2.57,3.82
+train,PID+SPNN,3000,0,0.0,0.0,0.13
+unseen,LQG,3000,166,5.53,4.77,6.41
+unseen,LQG+SPNN,3000,0,0.0,0.0,0.13
+unseen,PID,3000,225,7.5,6.61,8.5
+unseen,PID+SPNN,3000,0,0.0,0.0,0.13

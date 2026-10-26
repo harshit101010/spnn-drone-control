@@ -1,0 +1,19 @@
+﻿variant,Gamma,scenario,cost,RMSE (m),max dev in gust (m),control rate,failures (%)
+no compensator (base only),0.0,train,0.015,0.1373,0.3506,0.3941,0.0
+no compensator (base only),0.0,unseen,0.0323,0.1873,0.5792,0.6787,5.5
+no compensator (base only),0.0,extreme,0.0498,0.2248,0.7698,0.8688,13.0
+bias only (1 term: adaptive offset),100.0,train,0.0122,0.1044,0.2369,0.3831,0.0
+bias only (1 term: adaptive offset),100.0,unseen,0.0258,0.1265,0.3548,0.6571,0.0
+bias only (1 term: adaptive offset),100.0,extreme,0.0399,0.1462,0.4756,0.8411,0.0
+linear basis (4 terms),30.0,train,0.0131,0.1048,0.27,0.43,0.0
+linear basis (4 terms),30.0,unseen,0.0302,0.1289,0.4172,0.7958,0.0
+linear basis (4 terms),30.0,extreme,0.0513,0.1487,0.537,1.1014,0.0
+"additive polynomial (7 terms, no products)",30.0,train,0.0131,0.1046,0.2692,0.4299,0.0
+"additive polynomial (7 terms, no products)",30.0,unseen,0.0302,0.1284,0.4151,0.7968,0.0
+"additive polynomial (7 terms, no products)",30.0,extreme,0.0515,0.1478,0.5325,1.1066,0.0
+"sigma-pi, 27 terms (paper)",30.0,train,0.0131,0.1046,0.2689,0.43,0.0
+"sigma-pi, 27 terms (paper)",30.0,unseen,0.0302,0.1282,0.4145,0.7972,0.0
+"sigma-pi, 27 terms (paper)",30.0,extreme,0.0515,0.1475,0.5313,1.1075,0.0
+"sigma-pi, no leakage",30.0,train,0.0134,0.1039,0.2663,0.4427,0.0
+"sigma-pi, no leakage",30.0,unseen,0.0317,0.1266,0.4067,0.8381,0.0
+"sigma-pi, no leakage",30.0,extreme,0.0558,0.1451,0.5183,1.1897,0.0
